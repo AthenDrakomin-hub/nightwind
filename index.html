@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>夜风 · Nightwind — 一个人的交付线</title>
+<meta name="description" content="夜风 Nightwind：独立开发者。一个人维护 50+ 仓库，做全栈交付、AI 视频流水线、Agent 工具链与多端 IM。">
+<meta property="og:title" content="夜风 · Nightwind">
+<meta property="og:description" content="一个人，五十个仓库，一条交付线。">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/skyline-blue.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip" href="#work"><span class="zh">跳到作品</span><span class="en">Skip to work</span></a>
+
+<header class="rail">
+  <span class="mark">夜风 · NIGHTWIND</span>
+  <nav class="rail-links">
+    <a href="#work"><span class="zh">作品</span><span class="en">Work</span></a>
+    <a href="#method"><span class="zh">做法</span><span class="en">Method</span></a>
+    <a href="#about"><span class="zh">关于</span><span class="en">About</span></a>
+    <button class="lang" type="button" id="langBtn" aria-label="切换语言 / Switch language">
+      <span class="zh">EN</span><span class="en">中文</span>
+    </button>
+  </nav>
+</header>
+
+<main>
+  <!-- 首屏：一个被视口裁切的词 -->
+  <section class="hero" aria-labelledby="heroWord">
+    <h1 class="hero-word" id="heroWord">
+      <span class="zh word-zh">夜风</span>
+      <span class="en word-en">NIGHTWIND</span>
+    </h1>
+    <div class="hero-copy">
+      <p>
+        <span class="zh">夜里起风的时候，代码还在跑。一个人，五十个仓库，一条不外包的交付线。</span>
+        <span class="en">The wind picks up at night. The code keeps running. One person, fifty repositories, one line nobody else ships.</span>
+      </p>
+      <a class="hero-cta" href="#work">
+        <span class="zh">看交付记录</span><span class="en">See the record</span>
+      </a>
+    </div>
+    <aside class="pulse" id="pulse" aria-live="polite">
+      <span class="pulse-value" id="pulseValue">—</span>
+      <span class="pulse-note" id="pulseNote"><span class="zh">读取 GitHub 活动</span><span class="en">reading GitHub activity</span></span>
+    </aside>
+  </section>
+
+  <!-- 夜城全幅图 -->
+  <figure class="plate plate-wide">
+    <img src="assets/skyline-blue.jpg" width="2400" height="1350" alt="深蓝天幕下的城市天际线倒映在水面">
+  </figure>
+
+  <!-- work：安静账本 -->
+  <section class="work" id="work">
+    <h2><span class="zh">交付记录</span><span class="en">The record</span></h2>
+    <ul class="ledger">
+      <li><a href="https://github.com/AthenDrakomin-hub/repayment-verification-system" data-img="assets/alley-lights.jpg">
+        <span class="l-name">repayment-verification-system</span>
+        <span class="l-kind"><span class="zh">全栈 · Vue3 + NestJS</span><span class="en">Full stack · Vue3 + NestJS</span></span>
+        <span class="l-year">2026</span></a></li>
+      <li><a href="https://github.com/AthenDrakomin-hub/boxim" data-img="assets/rain-window.jpg">
+        <span class="l-name">boxim</span>
+        <span class="l-kind"><span class="zh">即时通讯 · 多端</span><span class="en">Messaging · multi-client</span></span>
+        <span class="l-year">2026</span></a></li>
+      <li><a href="https://github.com/AthenDrakomin-hub/autoclip" data-img="assets/lamp-snow.jpg">
+        <span class="l-name">autoclip</span>
+        <span class="l-kind"><span class="zh">AI 视频 · 一键出片</span><span class="en">AI video · one link, one cut</span></span>
+        <span class="l-year">2026</span></a></li>
+      <li><a href="https://github.com/AthenDrakomin-hub/second-brain" data-img="assets/skyline-dusk.jpg">
+        <span class="l-name">second-brain</span>
+        <span class="l-kind"><span class="zh">RAG 知识库 · 私有化</span><span class="en">RAG knowledge · self-hosted</span></span>
+        <span class="l-year">2026</span></a></li>
+      <li><a href="https://github.com/AthenDrakomin-hub/agent-skills" data-img="assets/river-city.jpg">
+        <span class="l-name">agent-skills</span>
+        <span class="l-kind"><span class="zh">Agent 工具链 · 可复用技能</span><span class="en">Agent toolchain · reusable skills</span></span>
+        <span class="l-year">2026</span></a></li>
+      <li><a href="https://github.com/AthenDrakomin-hub/wav2lip-cpu-lipsync" data-img="assets/alley-lights.jpg">
+        <span class="l-name">wav2lip-cpu-lipsync</span>
+        <span class="l-kind"><span class="zh">数字人 · 2C4G 可跑</span><span class="en">Talking head · runs on 2C4G</span></span>
+        <span class="l-year">2026</span></a></li>
+      <li><a href="https://github.com/AthenDrakomin-hub/lexiangim" data-img="assets/rain-window.jpg">
+        <span class="l-name">lexiangim</span>
+        <span class="l-kind"><span class="zh">IM 品牌线 · 部署</span><span class="en">IM brand line · deploy</span></span>
+        <span class="l-year">2025</span></a></li>
+      <li><a href="https://github.com/AthenDrakomin-hub/728-platform" data-img="assets/lamp-snow.jpg">
+        <span class="l-name">728-platform</span>
+        <span class="l-kind"><span class="zh">游戏平台 · Cocos + Node</span><span class="en">Game platform · Cocos + Node</span></span>
+        <span class="l-year">2025</span></a></li>
+    </ul>
+    <p class="ledger-foot">
+      <span class="zh">五十个仓库，一半在跑，一半在等下一次风起。</span>
+      <span class="en">Fifty repositories. Half of them running, the rest waiting for the next gust.</span>
+    </p>
+  </section>
+
+  <!-- 双图带 -->
+  <div class="plates-pair">
+    <figure class="plate"><img src="assets/alley-lights.jpg" width="1200" height="1500" loading="lazy" alt="夜里挂着串灯的窄巷"></figure>
+    <figure class="plate"><img src="assets/rain-window.jpg" width="1200" height="1500" loading="lazy" alt="雨夜的窗，背后是模糊的车灯"></figure>
+  </div>
+
+  <!-- method：行程单 -->
+  <section class="method" id="method">
+    <div class="method-copy">
+      <h2><span class="zh">从一句话到上线</span><span class="en">Sentence to shipped</span></h2>
+      <p>
+        <span class="zh">不写幻灯片，不排期三个月。先让能跑的东西出现在屏幕上，再让它在真实流量里活下来。每一步都有能验收的东西，每一段都能单独回滚。</span>
+        <span class="en">No decks, no three-month plan. Get something running on a screen, then keep it alive under real traffic. Every step ships something you can check, and every step rolls back on its own.</span>
+      </p>
+    </div>
+    <div class="slip">
+      <p class="slip-head"><span class="zh">交付单 · 一张</span><span class="en">One slip · delivery</span></p>
+      <div class="slip-group">
+        <h3><span class="zh">第一天</span><span class="en">Day one</span></h3>
+        <p><span class="zh">拆需求，定边界</span><span class="en">Split the ask, fix the edges</span><i></i><b>2h</b></p>
+        <p><span class="zh">技术选型，确认不重复造</span><span class="en">Pick the stack, nothing rebuilt</span><i></i><b>3h</b></p>
+      </div>
+      <div class="slip-group">
+        <h3><span class="zh">第一周</span><span class="en">Week one</span></h3>
+        <p><span class="zh">可点的原型，真数据</span><span class="en">Clickable prototype, real data</span><i></i><b>5d</b></p>
+        <p><span class="zh">前后端打通，跑在你机器上</span><span class="en">Wired end to end, on your machine</span><i></i><b>4d</b></p>
+        <p><span class="zh">视觉走查，定 token</span><span class="en">Visual pass, tokens fixed</span><i></i><b>2d</b></p>
+      </div>
+      <div class="slip-group">
+        <h3><span class="zh">之后</span><span class="en">After</span></h3>
+        <p><span class="zh">部署、备份、回滚演练</span><span class="en">Deploy, back up, rehearse rollback</span><i></i><b>1d</b></p>
+      </div>
+      <p class="slip-total"><span class="zh">你拿到：一个能自己跑的系统 · 合计 14 天</span><span class="en">You hold: a system that runs itself · 14 days total</span></p>
+    </div>
+  </section>
+
+  <!-- 全幅图 -->
+  <figure class="plate plate-wide">
+    <img src="assets/lamp-snow.jpg" width="2400" height="1350" loading="lazy" alt="雪夜里亮着的双球路灯">
+  </figure>
+
+  <!-- about：两栏大字 + 高亮词 -->
+  <section class="about" id="about">
+    <p class="about-text zh">
+      <strong>夜风</strong>，一个人写代码的地方。白天接交付，夜里做自己的东西，所以名字里有个“夜”。
+      做过<mark>全栈交付</mark>，从 Vue3 前台到 NestJS 后台；也做过<mark>多端 IM</mark>，让同一条消息在 App、H5 和桌面同时到达。
+      后来开始往<mark>视频流水线</mark>走：把长视频切成短视频，把一张照片变成会说话的人，而且要在<mark>2C4G 的便宜服务器</mark>上跑得动。
+      最近两年大半时间花在<mark>Agent 工具链</mark>和 RAG 知识库上，让机器替人记住更多、少问几遍。
+      五十多个仓库摆在那里，大部分没有 star，但它们都在某个客户的生产环境里跑着。
+      <a class="about-link" href="#contact">有事的话，往下滚到底。</a>
+    </p>
+    <p class="about-text en">
+      <strong>Nightwind</strong> is one person, one desk, one terminal. Days go to client work, nights to his own builds.
+      He has shipped <mark>full-stack delivery</mark> from Vue3 front ends to NestJS back ends, and <mark>multi-client messaging</mark> where one message lands on app, web and desktop at once.
+      Then came <mark>video pipelines</mark>: long clips cut into shorts, a still photo turned into someone talking, all of it running on <mark>a two-core box that costs nothing</mark>.
+      The last two years went mostly into <mark>agent toolchains</mark> and RAG knowledge bases, teaching the machine to remember more so nobody has to ask twice.
+      Fifty-some repositories sit there, mostly without stars, most of them running in somebody's production.
+      <a class="about-link" href="#contact">If you need something, keep scrolling.</a>
+    </p>
+  </section>
+
+  <!-- contact：地址行 -->
+  <section class="contact" id="contact">
+    <a class="crow" href="https://github.com/AthenDrakomin-hub" target="_blank" rel="noopener">
+      <span class="zh">GitHub</span><span class="en">GitHub</span>
+      <em>@AthenDrakomin-hub</em>
+    </a>
+    <a class="crow" href="mailto:hello@nightwind.dev?subject=%E5%90%88%E4%BD%9C%E5%92%A8%E8%AF%A2">
+      <span class="zh">邮件</span><span class="en">Email</span>
+      <em>hello@nightwind.dev</em>
+    </a>
+    <p class="crow crow-static">
+      <span class="zh">在做的事</span><span class="en">Working on</span>
+      <em><span class="zh">交付 · 视频 · Agent</span><span class="en">Delivery · Video · Agents</span></em>
+    </p>
+    <p class="crow crow-static">
+      <span class="zh">时区</span><span class="en">Time zone</span>
+      <em>UTC+8 · <span class="zh">夜里在线</span><span class="en">online at night</span></em>
+    </p>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="foot-top">
+    <p><span class="zh">独立开发 · 不外包 · 一个人一条线</span><span class="en">Independent · no outsourcing · one line, one hand</span></p>
+    <a href="#heroWord" class="to-top"><span class="zh">回到顶部</span><span class="en">Back to top</span></a>
+  </div>
+  <a class="foot-mail" href="mailto:hello@nightwind.dev?subject=%E5%90%88%E4%BD%9C%E5%92%A8%E8%AF%A2">hello@<br>nightwind.dev</a>
+  <div class="foot-meta">
+    <p><span class="zh">夜风 NIGHTWIND</span><span class="en">夜风 NIGHTWIND</span></p>
+    <p class="credit">Photos: Hide Obara, Matthew Skinner, Riley Briggs · Unsplash</p>
+    <p>UTC+8 · 2026</p>
+  </div>
+</footer>
+
+<script src="main.js" defer></script>
+</body>
+</html>
